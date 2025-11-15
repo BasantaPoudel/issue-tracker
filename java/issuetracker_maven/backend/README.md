@@ -9,7 +9,7 @@ IssueTracker Lite is a realistic, portfolio‑ready web application where users 
   * [Docker](https://www.postgresql.org/)
   * [Java 17](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html)
   * [PostGresQl >= 16.10 ](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html)
-  * [Node 12.14](https://nodejs.org/en/) ([Node Version Manager](https://github.com/nvm-sh/nvm) recommended)
+  * [Node 18](https://nodejs.org/en/) ([Node Version Manager](https://github.com/nvm-sh/nvm) recommended)
   * Git
   * IDE: IntelliJ
   * Postman/Insomnia
@@ -32,6 +32,8 @@ IssueTracker Lite is a realistic, portfolio‑ready web application where users 
 
 **FrontEnd**
 - 
+
+npm create vite@latest frontend -- --template react-ts
 
 **Database**
 - PostGreSQL
