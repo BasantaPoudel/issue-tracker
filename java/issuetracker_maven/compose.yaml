@@ -1,0 +1,10 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    env_file: .env
+    environment:
+      - 'POSTGRES_DB=tasktracker'
+      - 'POSTGRES_PASSWORD=taskuser'
+      - 'POSTGRES_USER=taskpass'
+    ports:
+      - '5432'
